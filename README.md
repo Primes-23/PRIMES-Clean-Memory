@@ -9,11 +9,11 @@
 
   **A zero-bloat, background RAM optimization utility that purges system standby lists and working sets instantly.**
 
-  [Key Features](#key-features) • [How It Works](#how-it-works) • [Security & Scan Evidence](#security--scan-evidence) • [Installation](#installation) • [License](#license)
+  [Key Features](#key-features) • [How It Works](#how-it-works) • [Security & Scan Evidence](#security-evidence) • [Installation](#installation) • [License](#license)
 
   <br />
 
-  <!-- HERO IMAGE SHOWCASE (Sized to fit vertical context menus naturally) -->
+  <!-- HERO IMAGE SHOWCASE -->
   <a href="https://github.com/Primes-23/PRIMES-Clean-Memory">
     <img src="docs/hero-image.png" alt="PRIMES Clean Memory Context Menu" width="320" style="border-radius: 8px;">
   </a>
@@ -25,12 +25,14 @@
 
 ---
 
+<a id="overview"></a>
 ## 🌟 Overview
 
 **PRIMES Clean Memory** is an open-source Windows optimization utility engineered to resolve micro-stutters, memory leaks, and high standby RAM usage during heavy gaming and multitasking. Unlike continuous background memory cleaners that waste system resources sitting idle, PRIMES Clean Memory executes **strictly on demand** or via scheduled triggers—freeing gigabytes of cached RAM in milliseconds.
 
 ---
 
+<a id="key-features"></a>
 ## ✨ Key Features
 
 * 🚀 **Instant RAM Purge**: Empties system working sets and standby memory allocations instantly via native Windows kernel APIs.
@@ -41,6 +43,7 @@
 
 ---
 
+<a id="how-it-works"></a>
 ## 🛠️ How It Works
 
 ```text
@@ -58,6 +61,7 @@ Standby List & Cache Released ──► System RAM Restored Instantly
 
 ---
 
+<a id="security-evidence"></a>
 ## 🛡️ Security & Scan Evidence
 
 Because this utility is compiled using AutoHotkey stubs and interacts directly with system RAM management APIs (`EmptyWorkingSet`), some cloud heuristic engines may flag the unsigned binary. Full local and cloud security breakdowns are provided below for complete transparency.
@@ -83,6 +87,7 @@ Because this utility is compiled using AutoHotkey stubs and interacts directly w
 
 ---
 
+<a id="installation"></a>
 ## 📥 Installation
 
 1. Download **`CleanMemoryInstaller.exe`** from the official **[Releases Page](https://github.com/Primes-23/PRIMES-Clean-Memory/releases)**.
@@ -92,6 +97,7 @@ Because this utility is compiled using AutoHotkey stubs and interacts directly w
 
 ---
 
+<a id="license"></a>
 ## 📄 License
 
 Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for full details.
