@@ -1,0 +1,12 @@
+; Create permanent AddContextMenu.reg file (Runs task silently without CMD popup)
+AddRegContent =
+(
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\CleanMemory]
+@="Clean Memory"
+"Icon"="cleanmgr.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\CleanMemory\command]
+@="powershell.exe -WindowStyle Hidden -Command \"schtasks /run /tn \\\"%TaskName%\\\"\""
+)
