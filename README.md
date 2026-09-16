@@ -9,7 +9,7 @@
 
   **A zero-bloat, background RAM optimization utility that purges system standby lists and working sets instantly.**
 
-  [Key Features](#-key-features) • [How It Works](#-how-it-works) • [Security & Scan Evidence](#-security--virustotal-evidence) • [Installation](#-installation) • [License](#-license)
+  [Key Features](#key-features) • [How It Works](#how-it-works) • [Security & Scan Evidence](#security--scan-evidence) • [Installation](#installation) • [License](#license)
 
   <br />
 
@@ -52,3 +52,5 @@ User Context Menu / Task Scheduler
                ▼
 Windows Kernel API Execution (EmptyWorkingSet / Memory Purge)
                │
+               ▼
+Standby List & Cache Released ──► System RAM Restored Instantly
