@@ -54,3 +54,44 @@ Windows Kernel API Execution (EmptyWorkingSet / Memory Purge)
                │
                ▼
 Standby List & Cache Released ──► System RAM Restored Instantly
+```
+
+---
+
+## 🛡️ Security & Scan Evidence
+
+Because this utility is compiled using AutoHotkey stubs and interacts directly with system RAM management APIs (`EmptyWorkingSet`), some cloud heuristic engines may flag the unsigned binary. Full local and cloud security breakdowns are provided below for complete transparency.
+
+### 🔍 Local Antivirus Verification (Kaspersky Plus)
+<div align="center">
+  <img src="docs/kaspersky-scan.png" alt="Kaspersky Clean Scan Report" width="650" style="border-radius: 6px;">
+  <p><sub><i>100% Clean local file scan verified by Kaspersky Plus.</i></sub></p>
+</div>
+
+<br />
+
+### 🌐 Cloud Analysis Report (VirusTotal)
+<div align="center">
+  <img src="docs/virustotal-scan.png" alt="VirusTotal Analysis Report" width="650" style="border-radius: 6px;">
+  <p><sub><i>67/70 Clean detection ratio on VirusTotal (BitDefender, Kaspersky, CrowdStrike clean).</i></sub></p>
+</div>
+
+> **Note on False Positives**: The 3 generic flags (e.g., *Bkav*, *Varist*) are standard false positives triggered by unsigned AutoHotkey compilation stubs making privileged system RAM purge API calls.
+
+* **Installer File**: `CleanMemoryInstaller.exe`
+* **SHA-256 Hash**: `036ebed885a832231884284763c61a1db90db716163955df997c5b06ae2d18fb`
+
+---
+
+## 📥 Installation
+
+1. Download **`CleanMemoryInstaller.exe`** from the official **[Releases Page](https://github.com/Primes-23/PRIMES-Clean-Memory/releases)**.
+2. Right-click the downloaded executable and select **Run as administrator**.
+3. Complete the installation process to set up files and desktop context menu integration.
+4. Right-click your desktop and select **Clean Memory** anytime to free up RAM!
+
+---
+
+## 📄 License
+
+Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for full details.
